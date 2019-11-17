@@ -1,15 +1,15 @@
-# Analisador léxico simples
+# Analisador lÃ©xico simples
 
-Este analisador foi escrito em Java, utilizando a biblioteca de geração de linguagem para análise léxica JFLEX.
+Este analisador foi escrito em Java, utilizando a biblioteca de geraÃ§Ã£o de linguagem para anÃ¡lise lÃ©xica (JFLEX)[https://jflex.de/].
 
-## Utilização
+## UtilizaÃ§Ã£o
 
-O arquivo para alteração das lexemas é o arquivo que se encontra em src/language/language.lex
+O arquivo para alteraÃ§Ã£o das lexemas Ã© o arquivo que se encontra em `src/language/language.lex`
 
-Lá podemos adicionar várias regras e retornos.
+LÃ¡ podemos adicionar vÃ¡rias regras e retornos.
 
-1. A primeira coisa a ser feita é gerar a classe da linguagem, basta executar o arquivo /src/generator/Generator.java. Repare que vai ser gerado um novo arquivo chamado /src/language/Language.java.
+1. A primeira coisa a ser feita Ã© gerar a classe da linguagem, basta executar o arquivo `/src/generator/Generator.java`. Repare que vai ser gerado um novo arquivo chamado `/src/language/Language.java`.
 
-2. Após isso, faça as correções necessárias até conseguir rodar os códigos novamente.
+2. ApÃ³s isso, faÃ§a as correÃ§Ãµes necessÃ¡rias atÃ© conseguir rodar os cÃ³digos novamente.
 
-3. Após as correções, execute o arquivo /src/analyzer/Analyzer.java e verifique a saída no Console a respeito do código parametrizado.
+3. ApÃ³s as correÃ§Ãµes, execute o arquivo `/src/analyzer/Analyzer.java` e verifique a saÃ­da no Console a respeito do cÃ³digo parametrizado.
