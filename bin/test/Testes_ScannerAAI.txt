@@ -1,5 +1,6 @@
 function main(){
 	var a = "Hello";
-	return a;
+	var b = "World!";
+	return a + b;
 }
 print(main());

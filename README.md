@@ -1,6 +1,8 @@
 # Analisador Léxico de JavaScript
 
-Este analisador foi escrito em Java, utilizando a biblioteca de geração de linguagem para análise léxica [JFLEX](https://jflex.de/), no Eclipse IDE, e analisa código escrito em JavaScript, informando o que foi utilizado, e se é permitido para esta linguagem ou não.
+Este analisador foi escrito em Java no Eclipse IDE, utilizando a biblioteca de geração de linguagem para análise léxica [JFLEX](https://jflex.de/), e analisa código escrito principalmente do tipo JavaScript, informando o que foi utilizado, e se é permitido para esta linguagem ou não.
+
+Como foi solicitado no enunciado do trabalho desenvolvido para a disciplina de Compiladores, a entrada é realizada no arquivo `/src/test/Testes_ScannerAAI.txt`, e obtem-se como saída o que está no arquivo `/src/test/saida.txt`.
 
 ## Desenvolvimento
 
@@ -15,10 +17,14 @@ Lá podemos adicionar várias regras e retornos.
 4. Após isso, a segunda coisa a ser feita é gerar a classe da linguagem, basta executar o arquivo `/src/generator/Generator.java`.
 Repare que vai ser gerado um novo arquivo chamado `/src/language/Language.java`.
 
-Pronto! Seu analisador está pronto pra ser utilizado!
+Pronto! O analisador está pronto pra ser utilizado!
 
 ## Utilização
 
-1. Após tudo isso, execute o arquivo `/src/analyzer/Analyzer.java` e verifique a saída no Console a respeito do arquivo parametrizado.
+1. Após tudo isso, execute o arquivo `/src/analyzer/Analyzer.java` e verifique a saída no Console a respeito do arquivo parametrizado que está no arquivo `/src/test/saida.txt`, ou no console da IDE.
 
-2. Para trocar o código parametrizado, basta informar o caminho do novo arquivo.
+2. Para trocar o código parametrizado, basta informar o caminho do novo arquivo, ou trocar o que se tem dentro do arquivo `/src/test/Testes_ScannerAAI.txt`.
+
+## Observações
+
+O arquivo do enunciado encontra-se na pasta `Enunciado` na raiz do projeto.

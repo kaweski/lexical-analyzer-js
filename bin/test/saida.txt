@@ -1,0 +1,55 @@
+0: KEYWORD, word: "function", length: 8
+8: WHITE_SPACE, word: " ", length: 1
+9: IDENTIFIER, word: "main", length: 4
+13: LPAREN, word: "(", length: 1
+14: RPAREN, word: ")", length: 1
+15: LBRACE, word: "{", length: 1
+16: WHITE_SPACE, word: "
+", length: 2
+18: WHITE_SPACE, word: "	", length: 1
+19: KEYWORD, word: "var", length: 3
+22: WHITE_SPACE, word: " ", length: 1
+23: IDENTIFIER, word: "a", length: 1
+24: WHITE_SPACE, word: " ", length: 1
+25: OPERATOR, word: "=", length: 1
+26: WHITE_SPACE, word: " ", length: 1
+27: STRING, word: """, length: 1
+28: STRING, word: "Hello", length: 5
+33: STRING, word: """, length: 1
+34: SEMICOLON, word: ";", length: 1
+35: WHITE_SPACE, word: "
+", length: 2
+37: WHITE_SPACE, word: "	", length: 1
+38: KEYWORD, word: "var", length: 3
+41: WHITE_SPACE, word: " ", length: 1
+42: IDENTIFIER, word: "b", length: 1
+43: WHITE_SPACE, word: " ", length: 1
+44: OPERATOR, word: "=", length: 1
+45: WHITE_SPACE, word: " ", length: 1
+46: STRING, word: """, length: 1
+47: STRING, word: "World!", length: 6
+53: STRING, word: """, length: 1
+54: SEMICOLON, word: ";", length: 1
+55: WHITE_SPACE, word: "
+", length: 2
+57: WHITE_SPACE, word: "	", length: 1
+58: KEYWORD, word: "return", length: 6
+64: WHITE_SPACE, word: " ", length: 1
+65: IDENTIFIER, word: "a", length: 1
+66: WHITE_SPACE, word: " ", length: 1
+67: OPERATOR, word: "+", length: 1
+68: WHITE_SPACE, word: " ", length: 1
+69: IDENTIFIER, word: "b", length: 1
+70: SEMICOLON, word: ";", length: 1
+71: WHITE_SPACE, word: "
+", length: 2
+73: RBRACE, word: "}", length: 1
+74: WHITE_SPACE, word: "
+", length: 2
+76: IDENTIFIER, word: "print", length: 5
+81: LPAREN, word: "(", length: 1
+82: IDENTIFIER, word: "main", length: 4
+86: LPAREN, word: "(", length: 1
+87: RPAREN, word: ")", length: 1
+88: RPAREN, word: ")", length: 1
+89: SEMICOLON, word: ";", length: 1
