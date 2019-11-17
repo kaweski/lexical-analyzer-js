@@ -1,13 +1,18 @@
-# Analisador LÈxico de JavaScript
+# Analisador L√©xico de JavaScript
 
-Este analisador foi escrito em Java, utilizando a biblioteca de geraÁ„o de linguagem para an·lise lÈxica JFLEX, e analisa cÛdigo escrito em JavaScript, analisando e informando o que foi utilizado e o que deve ser utilizado ou n„o nesta linguagem.
+Este analisador foi escrito em Java, utilizando a biblioteca de gera√ß√£o de linguagem para an√°lise l√©xica [JFLEX](https://jflex.de/).
 
-## UtilizaÁ„o
+Analisa c√≥digo escrito em JavaScript, informando o que foi utilizado, e se √© permitido para esta linguagem ou n√£o.
 
-O arquivo para alteraÁ„o das lexemas È o arquivo que se encontra em src/language/language.lex
+## Utiliza√ß√£o
 
-L· podemos adicionar v·rias regras e retornos.
+O arquivo para altera√ß√£o das lexemas √© o arquivo que se encontra em `/src/language/language.lex`.
 
-1. A primeira coisa a ser feita È gerar a classe da linguagem, basta executar o arquivo /src/generator/Generator.java. Repare que vai ser gerado um novo arquivo chamado /src/language/Language.java.
+L√° podemos adicionar v√°rias regras e retornos.
 
-2. ApÛs isso, execute o arquivo /src/analyzer/Analyzer.java e verifique a saÌda no Console a respeito do arquivo parametrizado. Para trocar o cÛdigo parametrizado, basta informar o caminho do arquivo.
+1. A primeira coisa a ser feita √© gerar a classe da linguagem, basta executar o arquivo `/src/generator/Generator.java`.
+Repare que vai ser gerado um novo arquivo chamado `/src/language/Language.java`.
+
+2. Ap√≥s isso, execute o arquivo `/src/analyzer/Analyzer.java` e verifique a sa√≠da no Console a respeito do arquivo parametrizado.
+
+3. Para trocar o c√≥digo parametrizado, basta informar o caminho do novo arquivo.
