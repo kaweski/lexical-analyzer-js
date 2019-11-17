@@ -1,0 +1,25 @@
+package language;
+
+public enum JavaScriptType {
+	EOF,
+    OPERATOR, 
+    IDENTIFIER,
+    INTEGER_LITERAL, 
+    KEYWORD, 
+    FLOATING_POINT_LITERAL, 
+    COMMENT, 
+    STRING_LITERAL,
+    COMMA, 
+    SEMICOLON,
+    RBRACK, 
+    LBRACK,
+    LPAREN,
+    RPAREN,
+    RBRACE, 
+    LBRACE, 
+    DOT, 
+    CHARACTER_LITERAL,
+    STRING, 
+    WHITE_SPACE,
+    DEFINE_LINE, PRETREATMENT_LINE
+}
