@@ -1,6 +1,6 @@
 # Analisador léxico simples
 
-Este analisador foi escrito em Java, utilizando a biblioteca de geração de linguagem para análise léxica (JFLEX)[https://jflex.de/].
+Este analisador foi escrito em Java, utilizando a biblioteca de geração de linguagem para análise léxica [JFLEX](https://jflex.de/).
 
 ## Utilização
 
