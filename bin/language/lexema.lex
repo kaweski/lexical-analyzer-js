@@ -3,7 +3,7 @@ package language;
 %%
 
 %public
-%class Language
+%class JacasVript
 
 %unicode
 

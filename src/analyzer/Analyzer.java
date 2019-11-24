@@ -3,8 +3,8 @@ package analyzer;
 import java.io.FileReader;
 import java.io.PrintWriter;
 
-import language.Language;
 import language.JavaScriptType;
+import language.JacasVript;
 
 public class Analyzer {
 
@@ -13,7 +13,7 @@ public class Analyzer {
 		FileReader fileReader = new FileReader("src/test/Testes_ScannerAAI.txt");
 		
 		// Converte o código para o tipo que foi gerado para linguagem JavaScript
-		Language lexer = new Language(fileReader);
+		JacasVript lexer = new JacasVript(fileReader);
 		
 		// Número de linhas
 		int index = 0;
